@@ -52,10 +52,15 @@ while True:
         "'s' pour sauvegarder",
         "'q' pour quitter",
         "'r' pour reinitialiser",
-        "'b': white/black en black/white"
+        "'b': white/black en black/white",
+        "1: Carre, 2: Triangle, 3: Rectangle, 4: Cercle"
     ]
-    for i, instruction in enumerate(instructions):
+    for i, instruction in enumerate(instructions[:-1]):
         cv2.putText(canvas_copy, instruction, (10, 20 + i * 20), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (line_color), 1, cv2.LINE_AA)
+    
+    # Draw the last instruction at the left bottom of the canvas
+    last_instruction = instructions[-1]
+    cv2.putText(canvas_copy, last_instruction, (10, canvas_copy.shape[0] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (line_color), 1, cv2.LINE_AA)
     
     # Draw a center '+' on the canvas copy
     center_x, center_y = canvas_copy.shape[1] // 2, canvas_copy.shape[0] // 2
