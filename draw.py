@@ -11,7 +11,7 @@ drawing = False
 prev_point = None
 shape_type = 1
 shape_count = [0, 0, 0, 0]  # Counters for each shape type
-line_thickness = 8
+line_thickness = 10
 
 shape_names = ["Carre", "Triangle", "Rectangle", "Cercle"]
 
@@ -29,7 +29,7 @@ def draw(event, x, y, flags, param):
 
 def change_thickness():
     global line_thickness
-    line_thickness = random.randint(8, 20)
+    line_thickness = random.randint(10, 25)
     print(f"Line thickness changed to {line_thickness}")
 
 def switch_background():
