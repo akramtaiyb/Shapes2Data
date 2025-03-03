@@ -10,5 +10,5 @@ def zip_images(directory, output_zip):
 
 if __name__ == "__main__":
     images_directory = os.path.join(os.path.dirname(__file__), 'images')
-    output_zip_path = os.path.join(os.path.dirname(__file__), 'shapes2data.zip')
+    output_zip_path = os.path.join(os.path.dirname(__file__), 'shapes2data.rar')
     zip_images(images_directory, output_zip_path)
