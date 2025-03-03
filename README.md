@@ -46,8 +46,14 @@ pip install -r requirements.txt
 python draw.py
 ```
 
-3. Créer la dataset :
+3. Créer le dataset :
 
 ```bash
 python images_to_csv.py
+```
+
+4. Compresser les images en fichier RAR :
+
+```bash
+python to_rar.py
 ```
