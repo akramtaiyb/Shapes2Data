@@ -1,4 +1,4 @@
-# 🖌️ Programme de Dessin avec OpenCV
+# 🖌️ Programme de dessin et création d'un jeu de données de formes simples avec OpenCV
 
 ## 📜 Instructions
 
@@ -21,6 +21,10 @@ Dessinez et enregistrez 10 dessins pour chaque type de forme.
 ### 🎲 Particularité
 
 - L'épaisseur du trait change **aléatoirement** après chaque sauvegarde.
+
+## 📼 Démo
+
+https://github.com/user-attachments/assets/5b5bcc6a-7cbf-46f0-97ca-81fbd214c6cb
 
 ## 📁 Sauvegarde
 
