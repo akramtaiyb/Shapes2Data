@@ -11,7 +11,7 @@ drawing = False
 prev_point = None
 shape_type = 1
 shape_count = [0, 0, 0, 0]  # Counters for each shape type
-line_thickness = 10
+line_ckness = 10
 
 shape_names = ["Carre", "Triangle", "Rectangle", "Cercle"]
 
